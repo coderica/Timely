@@ -1,0 +1,44 @@
+body {
+	background-color: #003154;
+}
+
+div {
+	display: inline-block;
+	float: right;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#work, #play, #stopped{
+	text-align: left;
+	padding: 10px 15px 11px !important;
+	font-size: 18px !important;
+	background-color: #F73D40;
+	font-weight: bold;
+	text-shadow: 1px 1px #f97779;
+	color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #f97779;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	width: 250px;
+	margin: 5px;
+}
+
+#started{
+	text-align: left;
+	padding: 10px 15px 11px !important;
+	font-size: 18px !important;
+	background-color: #b7d349;
+	font-weight: bold;
+	text-shadow: 1px 1px #92a83a;
+	color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #cce07f;
+	cursor: pointer;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+	width: 250px;
+	margin: 5px;
+}

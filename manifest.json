@@ -1,0 +1,22 @@
+{
+    "background": {
+        "scripts": [ "firebase.min.js", "background.js", "moment.min.js" ] 
+    },
+    "browser_action": {
+        "default_icon": "images/timely4.png",
+        "default_popup": "popup.html",
+        "default_title": "Timely"
+    },
+    "description": "A productivity extension.",
+    "icons": {
+        "16" : "images/timely4.png",
+        "48" : "images/timely4.png",
+        "128" : "images/timely4.png"
+    },
+    "manifest_version": 2,
+    "name": "Timely",
+    "offline_enabled": true,
+    "permissions": [ "notifications", "https://*.firebaseio.com/" ],
+    "version": "1",
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.firebase.com https://*.firebaseio.com https://*.firebaseio.com; object-src 'self'; "
+}
